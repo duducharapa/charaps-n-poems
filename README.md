@@ -1,27 +1,32 @@
-# React + TypeScript + Vite
+# Charaps 'n Poems
+Este projeto possui como finalidade demonstrar parte dos meus conhecimentos com **React e Typecript**, como também expor parte das **obras textuais** que crio como um hobby.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tecnologias/bibliotecas utilizadas
+- Typescript
+- React
+- Axios
+- JS/HTML/CSS
 
-Currently, two official plugins are available:
+# Algumas imagens do projeto
+![Tela inicial](https://github.com/duducharapa/charaps-n-poems/assets/47173483/5b5df866-0b67-4492-83f0-d421e17f930c)
+![Continuação da tela inicial](https://github.com/duducharapa/charaps-n-poems/assets/47173483/039f1a10-23ab-426b-94fb-c636c59df7c3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Utilização
+Para utilizar o projeto, basta clonar o repositório e instalar as dependências utilizando ```npm``` ou ```yarn```:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```sh
+git clone https://github.com/duducharapa/charaps-n-poems
+cd charaps-n-poems
+yarn # Or npm install 
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Após isso, execute com o seguinte comante:
+
+```sh
+yarn dev
+```
+
+Assim, seu projeto estará executando no endereço http://localhost:5174/
+
+# Aviso
+A aplicação consome uma API onde estão estes poemas os quais escrevo, você pode utilizar dados estáticos ou conferir o repositório da API [aqui](https://github.com/duducharapa/charaps-n-poems-api).
