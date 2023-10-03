@@ -11,7 +11,7 @@ const Home = () => {
     const [poems, setPoems] = useState<Poem[]>();
     
     const listPoems = useCallback(async () => {
-        const { data } = await axios.get<ListPoemsRequest>("http://localhost/poems");
+        const { data } = await axios.get<ListPoemsRequest>(`${import.meta.env.VITE_API_URL}/poems`);
         
         setPoems(data.data);
     }, []);
