@@ -1,0 +1,35 @@
+section.poem-card {
+    background-color: #EAEAEA;
+    width: 100%;
+    padding: 40px 60px 0px 60px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #A7A7A7;
+    transition: all 0.4s ease-in-out;
+}
+
+section.poem-card:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+h2.poem-card-title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+p.poem-card-verse {
+    margin-bottom: 10px;
+}
+
+img.poem-card-more {
+    width: 32px;
+    margin-bottom: 20px;
+}
+
+div.poem-card-more-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

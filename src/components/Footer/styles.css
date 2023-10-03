@@ -1,0 +1,14 @@
+footer.footer {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+h4.footer-author {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+p.footer-rights {
+    font-size: 0.9rem;
+}

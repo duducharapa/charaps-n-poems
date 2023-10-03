@@ -1,0 +1,8 @@
+main.main {
+    padding: 40px 116px 0 116px;
+    background-color: #F2FBE0;
+}
+
+main.main > section {
+    margin-bottom: 60px;
+}
