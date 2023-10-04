@@ -1,0 +1,19 @@
+h1.poem-view-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+
+main.poem-view-container {
+    width: 100%;
+    padding: 40px;
+}
+
+div.poem-view-stanza {
+    margin-bottom: 40px;
+}
+
+p.poem-view-verse {
+    line-height: 2rem;
+}

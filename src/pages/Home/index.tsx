@@ -1,19 +1,19 @@
 import { useCallback, useEffect, useState } from "react";
-import axios from "axios";
 
 import Navbar from "../../components/Navbar";
 import PoemCard from "../../components/PoemCard";
-import { ListPoemsRequest, Poem } from "../../interfaces/poem";
+import { Poem } from "../../interfaces/poem";
 import "./styles.css";
 import Footer from "../../components/Footer";
+import api from "../../services/api";
 
 const Home = () => {
     const [poems, setPoems] = useState<Poem[]>();
     
     const listPoems = useCallback(async () => {
-        const { data } = await axios.get<ListPoemsRequest>(`${import.meta.env.VITE_API_URL}/poems`);
+        const data = await api.listPoems();
         
-        setPoems(data.data);
+        setPoems(data);
     }, []);
 
     useEffect(() => {
