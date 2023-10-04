@@ -1,6 +1,6 @@
 h1.poem-view-title {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 80px;
     font-weight: bold;
 }
@@ -16,4 +16,5 @@ div.poem-view-stanza {
 
 p.poem-view-verse {
     line-height: 2rem;
+    color: #686466;
 }
